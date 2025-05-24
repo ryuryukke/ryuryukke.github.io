@@ -26,6 +26,10 @@ strong {
   /* or the highest weight supported by Crimson Text */
 }
 
+hr {
+  display: none;
+}
+
 heading {
   font-family: 'Crimson Text', sans-serif;
   font-size: 26px;
@@ -141,4 +145,12 @@ a img {
   background-color: rgba(135, 206, 235, 1);
   /* Full opacity on hover */
   opacity: 1;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 8px;
 }
