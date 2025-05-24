@@ -231,50 +231,72 @@
 
             <tr style="vertical-align:left;">
               <td style="padding:20px;width:35%;vertical-align:center">
-                <img src="images/outfox.png" alt="3DSP" width="100%">
+                <img src="images/outfox.png" width="100%">
               </td>
               <td style="padding:20px;width:75%;vertical-align:center">
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30120" id="3DSP">
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30120">
                   <papertitle>OUTFOX: LLM-Generated Essay Detection Through In-Context Learning with Adversarially
                     Generated Examples
+                  </papertitle>
+                </a>
+                <br>
+                <strong>Ryuto Koike</strong>, Masahiro
+                Kaneko, Naoaki Okazaki
+                <br>
+                <font color="#38b000"><strong>AAAI 2024</strong></font>
+                <br>
+                <div class="tags">
+                  <a href="https://arxiv.org/abs/2307.11729">arxiv</a> /
+                  <a href="https://drive.google.com/file/d/1mnxZ2v7hV4xNUdSOyy-IfAEbE4WRr1Ud/view">technical
+                    appendix</a> /
+                  <a href="https://github.com/ryuryukke/OUTFOX">data + code</a> /
+                  <a
+                    href="https://underline.io/lecture/94232-outfox-llm-generated-essay-detection-through-in-context-learning-with-adversarially-generated-examples-video">talk</a>
+                </div>
+                <p>
+                  TL;DR - We propose OUTFOX, a novel framework that improves the robustness of LLM text detectors by
+                  allowing both the detector and the attacker to adversarially learn from each other's output through
+                  in-context learning. In this framework, the attacker uses the detector's prediction labels as examples
+                  for in-context learning and adversarially generates essays that are harder to detect, while the
+                  detector uses the adversarially generated essays as examples for in-context learning to learn to
+                  detect essays from a strong attacker.</p>
+                <p>
+                  🏆 <a
+                    href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">Double
+                    Sponsorship Awards</a> (1/140 ≈ 0.7%) in YANS<br>
+                  📸 Featured in <a href="https://www.nikkei.com/article/DGXZQOUC1600L0W3A011C2000000/">Nikkei</a>, <a
+                    href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
+                    Tutorial</a>, <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai
+                    Blog</a>
+                </p>
+              </td>
+            </tr>
+
+            <tr style="vertical-align:left;">
+              <td style="padding:20px;width:35%;vertical-align:center">
+                <img src="images/howyoupromptmatters.png" width="100%">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:center">
+                <a href="">
+                  <papertitle>How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect
+                    LLM-Generated Text Detection
                   </papertitle>
                 </a>
                 <br>
                 <strong>Ryuto Koike</strong>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
                   Kaneko</a>, <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
                 <br>
-                <em><strong>AAAI 2024</strong></em>
+                <font color="#38b000"><strong>EMNLP 2024</strong>Findings</font>
                 <br>
                 <p>
-                  TL;DR - </p>
-              </td>
-            </tr>
-
-            <tr style="vertical-align:left;">
-              <td style="padding:20px;width:35%;vertical-align:center">
-                <img src="images/SDU.jpg" alt="3DSP" width="100%">
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:center">
-                <a href="" id="3DSP">
-                  <papertitle>Disentangling Biased Knowledge from Reasoning in Large Language Models via Machine
-                    Unlearning
-                  </papertitle>
-                </a>
-                <br>
-                <strong>Zheyuan Liu</strong>, <a
-                  href="https://scholar.google.nl/citations?user=bZQdJ5EAAAAJ&hl=en">Suraj Maharjan</a>, <a
-                  href="https://wufanyou.github.io/">Fanyou Wu</a>, <a href="https://rahil-kparikh.github.io/">Rahil
-                  Parikh</a>, <a href="https://scholar.google.com/citations?user=a-GpXlEAAAAJ&hl=en">Belhassen
-                  Bayar</a>, <a href="https://www.amazon.science/author/srinivasan-sengamedu-shs">Srinivasan H.
-                  Sengamedu</a>, <a href="http://www.meng-jiang.com/">Meng Jiang</a>
-                <br>
-                <font color="#38b000"><em><strong>Proceedings of ACL 2025 Main. </strong></em></font>
-                <br>
-                <p>
-                  We propose Selective Disentanglement Unlearning (SDU), a novel unlearning framework that selectively
-                  removes biased knowledge while preserving reasoning capabilities. SDU operates in three stages:
-                  identifying biased parameters using a shadow LLM, fine-tuning with unbiased data, and performing
-                  selective parameter updates based on weight saliency. </p>
+                  TL;DR - This paper reveals that current detectors are brittle to instruction variation in text
+                  generation.
+                  Specifically, even task-oriented constraints - constraints that would naturally be included in an
+                  instruction and are not related to detection-evasion - cause existing powerful detectors to have a
+                  large variance in detection performance.
+                  We raise awareness of the need to ensure prompt diversity when creating a detection benchmark and
+                  open-source the
+                  dataset consisting of LLM-generated essays via various instructions.</p>
               </td>
             </tr>
 
