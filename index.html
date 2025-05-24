@@ -150,21 +150,30 @@
           </tbody>
         </table>
 
-        <table width="100%" align="center" cellspacing="0" cellpadding="20">
+        <!-- <table width="100%" align="center" cellspacing="0" cellpadding="20">
           <tbody>
             <tr>
               <td>
-                <heading>Selected Works</heading>
+                <heading>Selected Works<font size=4>(✝:
+                    undergraduate/master's mentee.)</font>
+                  <font size=4>[<a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">
+                      <font size=4>Google Scholar</font>
+                    </a>]</font>
+                </heading>
               </td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
+        <div style="text-align: center; padding: 20px;">
+          <h2 style="font-family: 'Crimson Text', sans-serif; font-size: 26px; margin-bottom: 0;">
+            Selected Works
+            <span style="font-size: 17px;">(✝: undergraduate/master's mentee.)</span>
+            <span style="font-size: 17px;">
+              [<a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">Google Scholar</a>]
+            </span>
+          </h2>
+        </div>
 
-        <!-- <font size=4>(✝:
-          undergraduate/master's mentee.)</font>
-        <font size=4>[<a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">
-            <font size=4>Google Scholar</font>
-          </a>]</font> -->
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
@@ -173,40 +182,40 @@
               <img src="images/outfox.png" width="100%">
             </td>
             <td width="70%" valign="middle">
-              <div class="title">
+              <papertitle">
                 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30120"><b>OUTFOX: LLM-Generated Essay
                     Detection Through In-Context Learning with Adversarially
                     Generated Examples</b></a>
-              </div>
-              <div class="authors">
-                <strong>Ryuto Koike</strong>, Masahiro Kaneko, Naoaki Okazaki
-              </div>
-              <div class="venue">
-                <i><strong>AAAI</strong> 2024</i>
-              </div>
-              <div class="tags">
-                <a href="https://arxiv.org/abs/2307.11729">arxiv</a> /
-                <a href="https://github.com/ryuryukke/OUTFOX">data + code</a> /
-                <a href="https://drive.google.com/file/d/1mnxZ2v7hV4xNUdSOyy-IfAEbE4WRr1Ud/view">technical
-                  appendix</a>
-              </div>
-              <div align="justify">
-                TL;DR - We propose OUTFOX, a novel framework that improves the robustness of LLM text detectors by
-                allowing both the detector and the attacker to adversarially learn from each other's output through
-                in-context learning. In this framework, the attacker uses the detector's prediction labels as examples
-                for in-context learning and adversarially generates essays that are harder to detect, while the
-                detector uses the adversarially generated essays as examples for in-context learning to learn to
-                detect essays from a strong attacker.
-              </div>
-              <div align="justify">
-                🏆 <a
-                  href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">Double
-                  Sponsorship Awards</a> (1/140 ≈ 0.7%) in YANS<br>
-                📸 Featured in <a href="https://www.nikkei.com/article/DGXZQOUC1600L0W3A011C2000000/">Nikkei</a>, <a
-                  href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
-                  Tutorial</a>, <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai
-                  Blog</a>
-              </div>
+                </papertitle>
+                <div class="authors">
+                  <strong>Ryuto Koike</strong>, Masahiro Kaneko, Naoaki Okazaki
+                </div>
+                <div class="venue">
+                  <i><strong>AAAI</strong> 2024</i>
+                </div>
+                <div class="tags">
+                  <a href="https://arxiv.org/abs/2307.11729">arxiv</a> /
+                  <a href="https://github.com/ryuryukke/OUTFOX">data + code</a> /
+                  <a href="https://drive.google.com/file/d/1mnxZ2v7hV4xNUdSOyy-IfAEbE4WRr1Ud/view">technical
+                    appendix</a>
+                </div>
+                <div align="justify">
+                  TL;DR - We propose OUTFOX, a novel framework that improves the robustness of LLM text detectors by
+                  allowing both the detector and the attacker to adversarially learn from each other's output through
+                  in-context learning. In this framework, the attacker uses the detector's prediction labels as examples
+                  for in-context learning and adversarially generates essays that are harder to detect, while the
+                  detector uses the adversarially generated essays as examples for in-context learning to learn to
+                  detect essays from a strong attacker.
+                </div>
+                <div align="justify">
+                  🏆 <a
+                    href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">Double
+                    Sponsorship Awards</a> (1/140 ≈ 0.7%) in YANS<br>
+                  📸 Featured in <a href="https://www.nikkei.com/article/DGXZQOUC1600L0W3A011C2000000/">Nikkei</a>, <a
+                    href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
+                    Tutorial</a>, <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai
+                    Blog</a>
+                </div>
             </td>
           </tr>
 
