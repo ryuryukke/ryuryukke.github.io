@@ -46,10 +46,18 @@
       /* rgba(0, 0, 0, 0.5) means black with 50% opacity. Change values to fit your needs */
     }
 
-    td img {
+    td img:not(.icon) {
       max-width: 100% !important;
       width: 100% !important;
       height: auto;
+    }
+
+    img.icon {
+      width: auto !important;
+      height: 24px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 8px;
     }
 
     @media (max-width: 768px) {
