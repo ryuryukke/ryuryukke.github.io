@@ -54,14 +54,21 @@
 
     @media (max-width: 768px) {
 
-      tr,
-      td {
+      table[border="0"][cellpadding="20"] tr,
+      table[border="0"][cellpadding="20"] td {
         display: block;
         width: 100% !important;
       }
 
-      td {
-        padding: 12px 0 !important;
+      .container,
+      td[valign="middle"] {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      td[valign="middle"] img.icon {
+        margin-right: 10px;
       }
 
       .page {
