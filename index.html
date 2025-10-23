@@ -128,9 +128,12 @@
                 <heading>News</heading>
                 <div style="height: 120px; overflow: auto;">
                   <ul>
-                    <li>Feb. 2025: Our preprint <a href="https://arxiv.org/abs/2502.11336">ExaGPT</a> (collaboration
-                      with MBZUAI) on the
-                      interpretability of LLM detection is out! </li>
+                    <li>Oct. 2025: Our preprint on the <a href="https://arxiv.org/abs/2510.19492">transferability
+                        between MIA and AI text detection</a> (collaboration
+                      with UPenn) is out!</li>
+                    <li>Feb. 2025: Our preprint on the <a href="https://arxiv.org/abs/2502.11336">interpretability of AI
+                        text detection</a> (collaboration
+                      with MBZUAI) is out! </li>
                     <li>Jan. 2025: Organized the <a href="https://genai-content-detection.gitlab.io/">GenAI Content
                         Detection workshop</a> at <strong>COLING 2025</strong> @Abu Dhabi! </li>
                     <li>Oct. 2024: Started working at <a href="https://www.cis.upenn.edu/~ccb/">Chris
@@ -163,7 +166,7 @@
           <tbody>
             <tr>
               <td>
-                <heading>Selected Works <font size=4>(†: undergraduate/master's mentee.)</font>
+                <heading>Selected Works <font size=4>(*: equal contribution. †: undergraduate/master's mentee.)</font>
                   <font size=4>[ <a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">
                       <font size=4>Google Scholar</font>
                     </a> ]</font>
@@ -174,6 +177,72 @@
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/rank_correlation_plot_mint.png" width="90%">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:center">
+              <span class="domain-tag" style="background-color: #dceb08;">Reliability</span> <span class="domain-tag"
+                style="background-color: #7deb08;">Evaluation</span>
+              <br>
+              <a href="https://arxiv.org/pdf/2510.19492">
+                <papertitle>Machine Text Detectors are Membership Inference Attacks
+                </papertitle>
+              </a>
+              <br>
+              <strong>Ryuto Koike</strong>*, <a href="https://liamdugan.com/">Liam Dugan</a>*, <a
+                href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a>, <a
+                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>under review</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2510.19492">arxiv</a> /
+                <a href="https://github.com/ryuryukke/mint">code</a>
+              </div>
+              <div align="justify">
+                TL;DR - We theoretically prove that membership inference attacks (MIAs) and machine-generated text
+                detection share the same optimal metric, and empirically demonstrate strong cross-task transferability
+                (ρ > 0.6) across diverse domains and generators. Notably, a machine text detector achieves
+                state-of-the-art performance on MIA benchmarks. To support cross-task development and fair evaluation,
+                we introduce MINT, a unified evaluation suite implementing 15 recent methods from both tasks.
+              </div>
+            </td>
+          </tr>
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/exagpt.png" width="90%">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:center">
+              <span class="domain-tag" style="background-color: #08a7eb;">Interpretability</span> <span
+                class="domain-tag" style="background-color: #dceb08;">Reliability</span>
+              <br>
+              <a href="https://arxiv.org/pdf/2502.11336">
+                <papertitle>ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability
+                </papertitle>
+              </a>
+              <br>
+              <strong>Ryuto Koike</strong>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://ayaniwa.github.io/">Ayana Niwa</a>, <a
+                href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>, <a
+                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>under review</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2502.11336">arxiv</a> /
+                <a href="">code</a>
+              </div>
+              <div align="justify">
+                TL;DR - We propose ExaGPT, an interpretable AI text detector that identifies a text by checking
+                whether it shares more similar spans with human-written vs. machine-generated texts from a datastore
+                and presents those spans as evidence for users to assess how reliably correct the decision is.
+              </div>
+            </td>
+          </tr>
 
           <tr>
             <td width="30%">
@@ -215,12 +284,11 @@
                     href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
                     Tutorial</a>, <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai
                     Blog</a><br>
-                  📈 <b>114 citations</b> in Google Scholar
+                  📈 <b>119 citations</b> in Google Scholar
                   </a>
                 </div>
             </td>
           </tr>
-
 
           <tr style="vertical-align:left;">
             <td style="padding:20px;width:35%;vertical-align:center">
@@ -254,38 +322,6 @@
                 large variance in detection performance.
                 We raise awareness of the need to ensure prompt diversity when creating a detection benchmark and
                 open-source our constrained dataset.</div>
-            </td>
-          </tr>
-
-          <tr style="vertical-align:left;">
-            <td style="padding:20px;width:35%;vertical-align:center">
-              <img src="images/exagpt.png" width="90%">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:center">
-              <span class="domain-tag" style="background-color: #08a7eb;">Interpretability</span> <span
-                class="domain-tag" style="background-color: #dceb08;">Reliability</span>
-              <br>
-              <a href="https://arxiv.org/pdf/2502.11336">
-                <papertitle>ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability
-                </papertitle>
-              </a>
-              <br>
-              <strong>Ryuto Koike</strong>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
-                Kaneko</a>, <a href="https://ayaniwa.github.io/">Ayana Niwa</a>, <a
-                href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>, <a
-                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-              <br>
-              <i>ICLR (In submission)</i>
-              <br>
-              <div class="tags">
-                <a href="https://arxiv.org/abs/2502.11336">arxiv</a> /
-                <a href="">code</a>
-              </div>
-              <div align="justify">
-                TL;DR - We propose ExaGPT, an interpretable AI text detector that identifies a text by checking
-                whether it shares more similar spans with human-written vs. machine-generated texts from a datastore
-                and presents those spans as evidence for users to assess how reliably correct the decision is.
-              </div>
             </td>
           </tr>
 
