@@ -15,15 +15,15 @@ th,
 tr,
 p,
 a {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 17px
 }
 
 strong {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 17px;
   font-weight: 900;
-  /* or the highest weight supported by Noto Sans */
+  /* or the highest weight supported by Crimson Text */
 }
 
 hr {
@@ -31,18 +31,18 @@ hr {
 }
 
 heading {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 26px;
 }
 
 papertitle {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 18px;
   font-weight: 700
 }
 
 name {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 36px;
 }
 
