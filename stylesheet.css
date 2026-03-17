@@ -163,3 +163,12 @@ a img {
   display: inline-block;
   margin-bottom: 6px;
 }
+
+.inline-logo {
+  height: 1em;
+  /* テキスト高さに揃える */
+  vertical-align: middle;
+  /* 文字と揃える */
+  margin-left: 4px;
+  /* 少し余白 */
+}
