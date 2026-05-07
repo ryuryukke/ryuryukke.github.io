@@ -170,3 +170,110 @@ a img {
   vertical-align: -0.15em;
   margin-left: 4px;
 }
+
+/* ===== Selected Works ===== */
+
+table.selected-works {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 26px;
+}
+
+table.selected-works td {
+  padding: 0;
+}
+
+tr.paper-row {
+  vertical-align: middle;
+}
+
+td.paper-image {
+  width: 29%;
+  padding-right: 28px !important;
+  text-align: center;
+}
+
+td.paper-info {
+  width: 71%;
+  padding: 0 !important;
+  line-height: 1.28;
+}
+
+td.paper-info,
+td.paper-info a {
+  font-size: 16px;
+}
+
+td.paper-info papertitle {
+  display: block;
+  font-size: 17.5px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+td.paper-image img {
+  width: 100%;
+  max-width: 245px;
+  max-height: 175px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.paper-authors,
+.paper-venue,
+.paper-links {
+  margin: 0;
+}
+
+.paper-links {
+  margin-top: 2px;
+}
+
+.paper-note {
+  margin-top: 5px;
+  line-height: 1.32;
+}
+
+details {
+  margin-top: 3px;
+}
+
+details summary {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+details>div {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.35;
+  color: #444;
+  text-align: justify;
+}
+
+@media (max-width: 760px) {
+
+  table.selected-works,
+  table.selected-works tbody,
+  table.selected-works tr,
+  table.selected-works td {
+    display: block;
+    width: 100%;
+  }
+
+  table.selected-works {
+    border-spacing: 0 30px;
+  }
+
+  td.paper-image {
+    padding-right: 0 !important;
+    margin-bottom: 8px;
+  }
+
+  td.paper-image img {
+    max-width: 300px;
+    max-height: 180px;
+  }
+}
