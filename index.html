@@ -233,640 +233,584 @@
           </tbody>
         </table>
 
-        <table width="100%" align="center" cellspacing="0" cellpadding="0">
+        <table width="100%" align="center" cellspacing="0" cellpadding="20">
           <tbody>
             <tr>
-              <td style="padding: 0 0 8px 0;">
-                <heading>
-                  Selected Works
-                  <span style="font-size: 17px; font-weight: normal;">
-                    (*: equal contribution. †: undergraduate/master's mentee.)
-                  </span>
-                  <span style="font-size: 17px; font-weight: normal;">
-                    [ <a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">Google Scholar</a> ]
-                  </span>
+              <td>
+                <heading>Selected Works <font size=4>(*: equal contribution. †: undergraduate/master's mentee.)</font>
+                  <font size=4>[ <a href="https://scholar.google.com/citations?user=6_QnIVEAAAAJ&hl=en">
+                      <font size=4>Google Scholar</font>
+                    </a> ]</font>
                 </heading>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <table class="selected-works" align="center" border="0" cellspacing="0" cellpadding="0">
-          <tbody>
-
-            <tr class="paper-row">
-              <td class="paper-image">
-                <img src="images/rank_correlation_plot_mint.png" alt="Rank correlation plot for MINT">
-              </td>
-
-              <td class="paper-info">
-                <papertitle>Machine Text Detectors are Membership Inference Attacks</papertitle>
-
-                <div class="paper-authors">
-                  <u>Ryuto Koike</u>*,
-                  <a href="https://liamdugan.com/">Liam Dugan</a>*,
-                  <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>,
-                  <a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a>,
-                  <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-                </div>
-
-                <div class="paper-venue">
-                  <i>Preprint 2025</i>
-                </div>
-
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2510.19492">paper</a> /
-                  <a href="https://github.com/ryuryukke/mint">code</a>
-                </div>
-
-                <details>
-                  <summary>TL;DR</summary>
-                  <div>
-                    We theoretically prove that membership inference attacks and machine-generated text detection
-                    share the same optimal metric, and empirically demonstrate strong cross-task transferability
-                    (&rho; ≈ 0.7) across diverse domains and generators. Notably, a machine text detector
-                    outperforms a state-of-the-art MIA on MIA benchmarks. To support cross-task development and
-                    fair evaluation, we introduce MINT, a unified evaluation suite implementing 15 recent methods
-                    from both tasks.
-                  </div>
-                </details>
-
-                <div class="paper-note">
-                  🏆 <a
-                    href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%A9%9F%E6%A2%B0%E7%94%9F%E6%88%90%E6%96%87%E6%A4%9C%E5%87%BA%E3%81%A8%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97%E6%8E%A8%E8%AB%96%E3%81%AF%E7%9B%B8%E4%BA%92%E3%81%AB%E8%BB%A2%E7%A7%BB%E5%8F%AF%E8%83%BD">
-                    Outstanding Young Researcher’s Paper
-                  </a>
-                  (21/517 ≈ 4.1%) in ANLP
-                </div>
-              </td>
-            </tr>
-
-            <tr class="paper-row">
-              <td class="paper-image">
-                <img src="images/exagpt.png" alt="Overview of ExaGPT">
-              </td>
-
-              <td class="paper-info">
-                <papertitle>ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability
-                </papertitle>
-
-                <div class="paper-authors">
-                  <u>Ryuto Koike</u>,
-                  <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>,
-                  <a href="https://ayaniwa.github.io/">Ayana Niwa</a>,
-                  <a href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>,
-                  <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-                </div>
-
-                <div class="paper-venue">
-                  <i>ACL Findings 2026</i>
-                </div>
-
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2502.11336">paper</a> /
-                  <a href="">code</a>
-                </div>
-
-                <details>
-                  <summary>TL;DR</summary>
-                  <div>
-                    We propose ExaGPT, an interpretable AI text detector that classifies a text by checking
-                    whether it shares more similar spans with human-written or machine-generated texts from
-                    a datastore, and presents those spans as evidence for users to assess the decision.
-                    ExaGPT achieves both high interpretability and strong detection performance, outperforming
-                    prior interpretable detectors by up to +37.0% accuracy at 1% FPR.
-                  </div>
-                </details>
-              </td>
-            </tr>
-
-            <tr class="paper-row">
-              <td class="paper-image">
-                <img src="images/outfox.png" alt="Overview of OUTFOX">
-              </td>
-
-              <td class="paper-info">
-                <papertitle>
-                  OUTFOX: LLM-Generated Essay Detection Through In-Context Learning with Adversarially Generated
-                  Examples
-                </papertitle>
-
-                <div class="paper-authors">
-                  <u>Ryuto Koike</u>,
-                  <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>,
-                  <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-                </div>
-
-                <div class="paper-venue">
-                  <i>AAAI 2024</i>
-                </div>
-
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2307.11729">paper</a> /
-                  <a href="https://github.com/ryuryukke/OUTFOX">data + code</a> /
-                  <a href="https://drive.google.com/file/d/1mnxZ2v7hV4xNUdSOyy-IfAEbE4WRr1Ud/view">technical
-                    appendix</a>
-                </div>
-
-                <details>
-                  <summary>TL;DR</summary>
-                  <div>
-                    We propose OUTFOX, a framework that improves the robustness of AI text detectors by allowing
-                    both the detector and the attacker to adversarially learn from each other's output through
-                    in-context learning, achieving a +41.3% F1 improvement against strong adaptive attacks.
-                    This paper is among the first to effectively use AI to detect AI.
-                  </div>
-                </details>
-
-                <div class="paper-note">
-                  🏆 <a
-                    href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">
-                    Double Sponsorship Awards
-                  </a>
-                  (1/140 ≈ 0.7%) in YANS<br>
-                  📸 Featured in
-                  <a href="https://www.nikkei.com/article/DGXZQOUC1600L0W3A011C2000000/">Nikkei</a>,
-                  <a href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
-                    Tutorial</a>,
-                  <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai Blog</a><br>
-                  📈 <b>&gt;150 citations</b> in Google Scholar
-                </div>
-              </td>
-            </tr>
-
-            <tr class="paper-row">
-              <td class="paper-image">
-                <img src="images/howyoupromptmatters_.png" alt="Overview of How You Prompt Matters">
-              </td>
-
-              <td class="paper-info">
-                <papertitle>
-                  How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect LLM-Generated Text
-                  Detection
-                </papertitle>
-
-                <div class="paper-authors">
-                  <u>Ryuto Koike</u>,
-                  <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>,
-                  <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-                </div>
-
-                <div class="paper-venue">
-                  <i>EMNLP Findings 2024</i>
-                </div>
-
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2311.08369">paper</a> /
-                  <a href="https://github.com/ryuryukke/HowYouPromptMatters">data</a>
-                </div>
-
-                <details>
-                  <summary>TL;DR</summary>
-                  <div>
-                    We reveal the vulnerabilities of AI text detectors against prompt diversity in text generation.
-                    Specifically, even <i>task-oriented</i> constraints — constraints that would naturally be included
-                    in instructions and are unrelated to detection evasion — can substantially degrade the performance
-                    of existing detectors. We highlight the importance of prompt diversity for building robust,
-                    real-world benchmarks.
-                  </div>
-                </details>
-              </td>
-            </tr>
-
-            <tr class="paper-row">
-              <td class="paper-image">
-                <img src="images/likelihood_bias.png" alt="Overview of likelihood-based mitigation">
-              </td>
-
-              <td class="paper-info">
-                <papertitle>Likelihood-based Mitigation of Evaluation Bias in Large Language Models</papertitle>
-
-                <div class="paper-authors">
-                  <a href="https://sites.google.com/view/masanarioi/english">Masanari Ohi</a>†,
-                  <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>,
-                  <u>Ryuto Koike</u>,
-                  <a href="https://loem-ms.github.io/">Mengsay Loem</a>,
-                  <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-                </div>
-
-                <div class="paper-venue">
-                  <i>ACL Findings 2024</i>
-                </div>
-
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2402.15987">paper</a> /
-                  <a href="https://github.com/stjohn2007/likelihood_bias">code</a>
-                </div>
-
-                <details>
-                  <summary>TL;DR</summary>
-                  <div>
-                    We identify a self-preference bias in LLM-as-a-judge: LLMs tend to overrate texts with
-                    higher likelihoods while underrating those with lower likelihoods. We further propose a simple
-                    mitigation method via in-context learning, achieving better alignment with human evaluations.
-                  </div>
-                </details>
-
-                <div class="paper-note">
-                  🏆 <a
-                    href="https://www.anlp.jp/nlp2024/award.html#:~:text=%E5%88%A4%E6%96%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%8E-,A11%2D4,-%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB">
-                    Outstanding Young Researcher’s Paper
-                  </a>
-                  (18/427 ≈ 4.2%) in ANLP<br>
-                  🏆 <a href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/ja/">Best Paper
-                    Award</a>
-                  in Journal of Natural Language Processing
-                </div>
-              </td>
-            </tr>
-
-          </tbody>
-        </table>
-
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <details>
-                  <summary><span style="font-size: 24px; font-weight: 600;">All Publications</span></summary>
 
-                  <h6><strong>Journal</strong></h6>
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/rank_correlation_plot_mint.png" width="90%">
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:center">
+              <!-- <span class="domain-tag" style="background-color: #dceb08;">Reliability</span> <span class="domain-tag"
+                style="background-color: #7deb08;">Evaluation</span> -->
+              <br>
+              <papertitle>Machine Text Detectors are Membership Inference Attacks
+              </papertitle>
+              <br>
+              <u>Ryuto Koike</u>*, <a href="https://liamdugan.com/">Liam Dugan</a>*, <a
+                href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a>, <a
+                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>Preprint 2025</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2510.19492">paper</a> /
+                <a href="https://github.com/ryuryukke/mint">code</a>
+              </div>
+              <div align="justify">
+                TL;DR - We theoretically prove that membership inference attacks (MIA) and machine-generated text
+                detection share the same optimal metric, and empirically demonstrate strong cross-task transferability
+                (&rho; ≈ 0.7) across diverse domains and generators. Notably, a machine text detector outperforms
+                a state-of-the-art MIA on MIA benchmarks. To support cross-task development and fair evaluation,
+                we introduce MINT, a unified evaluation suite implementing 15 recent methods from both tasks.
+              </div>
+              <div align="justify">🏆 <a
+                  href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%A9%9F%E6%A2%B0%E7%94%9F%E6%88%90%E6%96%87%E6%A4%9C%E5%87%BA%E3%81%A8%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97%E6%8E%A8%E8%AB%96%E3%81%AF%E7%9B%B8%E4%BA%92%E3%81%AB%E8%BB%A2%E7%A7%BB%E5%8F%AF%E8%83%BD">Outstanding
+                  Young Researcher’s Paper</a> (21/517 ≈ 4.1%) in ANLP</div>
+            </td>
+          </tr>
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/exagpt.png" width="90%">
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:center">
+              <!-- <span class="domain-tag" style="background-color: #08a7eb;">Interpretability</span> <span
+                class="domain-tag" style="background-color: #dceb08;">Reliability</span> -->
+              <br>
+              <papertitle>ExaGPT: Example-Based Machine-Generated Text Detection for Human Interpretability
+              </papertitle>
+              <br>
+              <u>Ryuto Koike</u>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://ayaniwa.github.io/">Ayana Niwa</a>, <a
+                href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>, <a
+                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>ACL Findings 2026</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2502.11336">paper</a> /
+                <a href="">code</a>
+              </div>
+              <div align="justify">
+                TL;DR - We propose ExaGPT, an interpretable AI text detector that identifies a text by checking
+                whether it shares more similar spans with human-written vs. machine-generated texts from a datastore
+                and presents those spans as evidence for users to assess how reliably correct the decision is. ExaGPT
+                achieves both high interpretability and significant performance, outperforming prior interpretable
+                detectors by up to +37.0% accuracy at 1% FPR.
+              </div>
+            </td>
+          </tr>
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/outfox.png" width="100%">
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:center">
+              <!-- <span class="domain-tag">Robustness</span> -->
+              <br>
+              <papertitle>OUTFOX: LLM-Generated Essay
+                Detection Through In-Context Learning with Adversarially
+                Generated Examples
+              </papertitle>
+              <br>
+              <u>Ryuto Koike</u>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>AAAI 2024</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2307.11729">paper</a> /
+                <a href="https://github.com/ryuryukke/OUTFOX">data + code</a> /
+                <a href="https://drive.google.com/file/d/1mnxZ2v7hV4xNUdSOyy-IfAEbE4WRr1Ud/view">technical
+                  appendix</a>
+              </div>
+              <div align="justify">
+                TL;DR - We propose OUTFOX, a framework that improves the robustness of AI text detectors by
+                allowing both the detector and the attacker to adversarially learn from each other's output through
+                in-context learning, achieving a +41.3% F1 improvement against strong adaptive attacks. This paper is
+                among the first to effectively use AI to detect AI.
+              </div>
+              <div align="justify">
+                🏆 <a
+                  href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">Double
+                  Sponsorship Awards</a> (1/140 ≈ 0.7%) in YANS<br>
+                📸 Featured in <a href="https://www.nikkei.com/article/DGXZQOUC1600L0W3A011C2000000/">Nikkei</a>, <a
+                  href="https://adauchendu.github.io/Deepfake_Text_Tutorial%20-%20NAACL_compressed.pdf">NAACL
+                  Tutorial</a>, <a href="https://originality.ai/blog/ai-generation-vs-detection">Originality.ai
+                  Blog</a><br>
+                📈 <b>>150 citations</b> in Google Scholar
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/howyoupromptmatters_.png" width="100%">
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:center">
+              <!-- <span class="domain-tag">Robustness</span> <span class="domain-tag"
+                style="background-color: #7deb08;">Evaluation</span> -->
+              <br>
+              <papertitle>How You Prompt Matters! Even Task-Oriented Constraints in Instructions Affect
+                LLM-Generated Text Detection
+              </papertitle>
+              <br>
+              <u>Ryuto Koike</u>, <a href="https://sites.google.com/view/masahirokaneko/english">Masahiro
+                Kaneko</a>, <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>EMNLP Findings 2024</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2311.08369">paper</a> /
+                <a href="https://github.com/ryuryukke/HowYouPromptMatters">data</a>
+              </div>
+              <div align="justify">
+                TL;DR - We reveal the vulnerabiltiies of AI text detectors against prompt diversity in text
+                generation.
+                Specifically, even <i>task-oriented</i> constraints -- constraints that would naturally be included in
+                an
+                instruction and are not related to detection-evasion -- cause existing powerful detectors to degrade
+                their detection performance.
+                We highlight the importance of ensuring prompt diversity to build robust benchmarks grounded in
+                real-world scenarios.</div>
+            </td>
+          </tr>
+
+          <tr style="vertical-align:left;">
+            <td style="padding:20px;width:35%;vertical-align:center">
+              <img src="images/likelihood_bias.png" width="100%">
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:center">
+              <!-- <span class="domain-tag" style="background-color: #dceb08;">Reliability</span> <span class="domain-tag"
+                style="background-color: #7deb08;">Evaluation</span> -->
+              <br>
+              <papertitle>Likelihood-based Mitigation of Evaluation Bias in Large Language Models
+              </papertitle>
+              <br>
+              <a href="https://sites.google.com/view/masanarioi/english">Masanari Ohi</a>†, <a
+                href="https://sites.google.com/view/masahirokaneko/english">Masahiro Kaneko</a>, <u>Ryuto Koike</u>, <a
+                href="https://loem-ms.github.io/">Mengsay Loem</a>, <a
+                href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              <br>
+              <i>ACL Findings 2024</i>
+              <br>
+              <div class="tags">
+                <a href="https://arxiv.org/abs/2402.15987">paper</a> /
+                <a href="https://github.com/stjohn2007/likelihood_bias">code</a>
+              </div>
+              <div align="justify">
+                TL;DR - We identify a self-preference bias in LLM-as-a-judge i.e., LLMs overrate texts with higher
+                likelihoods while underrating those
+                with lower likelihoods. We further propose a simple yet effective mitigation method via in-context
+                learning, achieving better alignment with human evaluations.</div>
+              <div align="justify">🏆 <a
+                  href="https://www.anlp.jp/nlp2024/award.html#:~:text=%E5%88%A4%E6%96%AD%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%EF%BC%8E-,A11%2D4,-%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB">Outstanding
+                  Young Researcher’s Paper</a> (18/427 ≈ 4.2%) in ANLP<br>🏆 <a
+                  href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/ja/">Best Paper Award</a>
+                in Journal of Natural Language Processing</div>
+            </td>
+          </tr>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <details>
+                    <summary><span style="font-size: 24px; font-weight: 600;">All Publications</span></summary>
+
+                    <h6><strong>Journal</strong></h6>
+                    <ul>
+                      <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>On the Robustness
+                          of LLM-Generated Text Detection Against Instruction Diversity.</strong> Journal of Natural
+                        Language Processing, 33(1):158–185, March 2026. [<a
+                          href="https://www.jstage.jst.go.jp/article/jnlp/33/1/33_158/_pdf/-char/en">paper</a>]</li>
+                      <li>Masanari Ohi, Masahiro Kaneko, <u>Ryuto Koike</u>, Mengsay Loem, Naoaki Okazaki.
+                        <strong>Likelihood-based Mitigation of Evaluation Bias in Large Language Models.</strong>
+                        Journal of Natural Language Processing.
+                        32(2):480–496. July 2025. [<a
+                          href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/en/">paper</a>]
+                        <b><span style="color: red;">Best Paper Award</span></b> 🎉
+                      </li>
+                      <li><u>Ryuto Koike</u>, Masafumi Hagiwara. <strong>A support system for generating attractive
+                          YouTube titles using text style transfer.</strong> Transactions of Japan Society of Kansei
+                        Engineering. 21(1):49–55. 2022. [<a
+                          href="https://www.jstage.jst.go.jp/article/jjske/21/1/21_TJSKE-D-21-00036/_article/-char/en">paper</a>]
+                      </li>
+                    </ul>
+
+                    <h6><strong>Preprints</strong></h6>
+                    <ul>
+                      <li>Koshiro Saito†, <u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki
+                        Okazaki. <strong>LLM Output Detectability and Task Performance Can be Jointly
+                          Optimized.</strong> arXiv. 2026.
+                        [<a href="https://arxiv.org/abs/2605.01350">paper</a>]
+                      </li>
+                      <li>Tatsuya Ichinose†, Youmi Ma, Masanari Oi, <u>Ryuto Koike</u>, Naoaki
+                        Okazaki. <strong>Synthesizing Instruction-Tuning Datasets with Contrastive Decoding.</strong>
+                        arXiv. 2026. [<a href="https://arxiv.org/abs/2604.13538">paper</a>]
+                      </li>
+                      <li><u>Ryuto Koike</u>*, Liam Dugan*, Masahiro Kaneko, Chris Callison-Burch, Naoaki
+                        Okazaki. <strong>Machine Text Detectors are Membership Inference Attacks.</strong> arXiv. 2025.
+                        [<a href="https://arxiv.org/abs/2510.19492">paper</a>]
+                      </li>
+                    </ul>
+
+                    <h6><strong>International Conference</strong></h6>
+                    <ul>
+                      <li>Masanari Oi, Koki Maeda, <u>Ryuto Koike</u>, Daisuke Oba, Nakamasa Inoue, Naoaki
+                        Okazaki. <strong>From Correspondence to Actions: Human-Like Multi-Image Spatial Reasoning in
+                          Multi-modal Large Language Models.</strong> <b><span style="color: red;">ICML</span></b>.
+                        Seoul, South Korea. July 2026.
+                        [<a href="https://arxiv.org/abs/2602.08735">paper</a>]
+                      </li>
+                      <li><u>Ryuto Koike</u>, Masahiro Kaneko, Ayana Niwa, Preslav Nakov, Naoaki Okazaki.
+                        <strong>ExaGPT: Example-Based Machine-Generated Text Detection for Human
+                          Interpretability.</strong> <b><span style="color: red;">Findings of ACL</span></b>. San Diego,
+                        California, USA. July 2026.
+                        [<a href="https://arxiv.org/abs/2502.11336">paper</a>]
+                      </li>
+                      <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>OUTFOX:
+                          LLM-generated Essay Detection through In-context Learning with Adversarially Generated
+                          Examples.</strong> <b><span style="color: red;">AAAI</span></b>. pp. 21258–21266. Vancouver,
+                        Canada. February 2024. [<a href="https://arxiv.org/abs/2510.19492">paper</a>]</li>
+                      <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>How You Prompt
+                          Matters! Even Task-Oriented Constraints in Instructions Affect LLM-Generated Text
+                          Detection.</strong> <b><span style="color: red;">Findings of EMNLP</span></b>. pp.
+                        14384–14395.
+                        Miami, Florida, USA. November
+                        2024. [<a href="https://arxiv.org/abs/2311.08369">paper</a>]</li>
+                      <li>Masanari Ohi†, Masahiro Kaneko, <u>Ryuto Koike</u>, Mengsay Loem, Naoaki Okazaki.
+                        <strong>Likelihood-based Mitigation of Evaluation Bias in Large Language Models.</strong>
+                        <b><span style="color: red;">Findings of ACL</span></b>. pp. 3237–3245. Bangkok, Thailand.
+                        August
+                        2024. [<a href="https://arxiv.org/abs/2402.15987">paper</a>]
+                      </li>
+                      <li>Yuxia Wang, Rui Xing, Jonibek Mansurov, Giovanni Puccetti, Zhuohan Xie, Minh Ngoc Ta, Jiahui
+                        Geng, Jinyan Su, Mervat Abassy, Saad El Dine Ahmed, Kareem Elozeiri, Nurkhan Laiyk, Maiya
+                        Goloburda, Tarek Mahmoud, Raj Vardhan Tomar, Alexander Aziz, <u>Ryuto Koike</u>,
+                        Masahiro Kaneko, Artem Shelmanov, Ekaterina Artemova, Vladislav Mikhailov, Akim Tsvigun, Alham
+                        Fikri Aji, Nizar Habash, Iryna Gurevych, Preslav Nakov. <strong>Is Human-like Text Liked by
+                          Human? Multilingual Human Detection and Preference Against AI.</strong> <b><span
+                            style="color: red;">ACL</span></b>. San Diego,
+                        California, USA. July 2026. [<a href="https://arxiv.org/abs/2502.11614">paper</a>]</li>
+                      <li>Yuxia Wang, Artem Shelmanov, Jonibek Mansurov, Akim Tsvigun, Vladislav Mikhailov, Rui Xing,
+                        Zhuohan Xie, Jiahui Geng, Giovanni Puccetti, Ekaterina Artemova, Jinyan Su, Minh Ngoc Ta, Mervat
+                        Abassy, Kareem Elozeiri, Saad El Dine Ahmed, Maiya Goloburda, Tarek Mahmoud, Raj Vardhan Tomar,
+                        Alexander Aziz, Nurkhan Laiyk, Osama Mohammed Afzal, <u>Ryuto Koike</u>, Masahiro
+                        Kaneko, Alham Fikri Aji, Nizar Habash, Iryna Gurevych, Preslav Nakov. <strong> GenAI Content
+                          Detection Task 1: English and Multilingual Machine-generated Text Detection: AI vs.
+                          Human.</strong>
+                        Proceedings
+                        of the 1st Workshop on GenAI Content Detection (<b><span
+                            style="color: red;">GenAIDetect</span></b>).
+                        pp. 244–261. COLING. Abu Dhabi,
+                        UAE. [<a href="https://arxiv.org/abs/2501.11012">paper</a>]</li>
+                    </ul>
+
+                    <h6><strong>Domestic Conference and Symposium (in Japanese)</strong></h6>
+                    <ul>
+                      <li><u>小池 隆斗</u>*, Liam Dugan*, 金子 正弘, Chris Callison-Burch, 岡崎 直観.
+                        <strong>機械生成文検出とメンバーシップ推論は相互に転移可能.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月. <b><span
+                            style="color: red;">若手奨励賞</span></b> 🎉
+                      </li>
+                      <li>一瀬 達矢, Youmi Ma, 大井 聖也, <u>小池 隆斗</u>, 岡崎 直観.
+                        <strong>対照的デコーディングを用いた指示学習データの合成.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月.
+                      </li>
+                      <li>島田 比奈理, 大葉 大輔, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
+                        <strong>現在と将来の応答の有害性を低減させることによるマルチターン脱獄攻撃の防御手法.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月.
+                      </li>
+                      <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>機械文としての検出されやすさと文章の品質は両立する.</strong>
+                        言語処理学会第32回年次大会 (NLP2026), 2026年3月. <b><span style="color: red;">若手奨励賞 🎉
+                            スポンサー賞（CyberAgent, ELYZA）</span></b>🎉</li>
+                      <li>島田 比奈理, 大葉 大輔, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
+                        <strong>マルチターンJailbreak攻撃に対する防御アルゴリズムの提案.</strong> 第20回YANSシンポジウム (YANS2025), S3-P49, 2025年9月.
+                        <b><span style="color: red;">スポンサー賞（Polaris.AI）</span></b>🎉
+                      </li>
+                      <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
+                        <strong>PUPPET：タスク性能を維持しながらLLMとして検出されやすくする学習フレームワーク.</strong> 第20回YANSシンポジウム (YANS2025), S2-P13,
+                        2025年9月.
+                      </li>
+                      <li>一瀬 達矢, Youmi Ma, 大井 聖也, <u>小池 隆斗</u>, 岡崎 直観.
+                        <strong>対照的デコーディングを用いた指示学習データの合成.</strong> 第20回YANSシンポジウム (YANS2025), S1-P34, 2025年9月. <b><span
+                            style="color: red;">スポンサー賞（CyberAgent）</span></b>🎉
+                      </li>
+                      <li><u>小池 隆斗</u>, 金子 正弘, 丹羽 彩奈, Preslav Nakov, 岡崎 直観. <strong>ExaGPT:
+                          解釈性向上に向けた事例ベース機械文検出.</strong> 人工知能学会第39回年次大会 (JSAI2025), 2025年5月.</li>
+                      <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
+                        <strong>PUPPET：タスク性能を維持しながらLLMとして検出されやすくする学習フレームワーク.</strong> 言語処理学会第31回年次大会 (NLP2025), P7-5,
+                        pp. 2791–2796, 2025年3月.
+                      </li>
+                      <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
+                        <strong>強化学習を用いた、言語理解能力を維持したLLM検出器の性能向上.</strong> 第19回YANSシンポジウム (YANS2024), S1-P23, 2024年9月.
+                        <b><span style="color: red;">奨励賞 🎉 スポンサー賞（CyberAgent）</span></b>🎉
+                      </li>
+                      <li>大井 聖也, 金子 正弘, <u>小池 隆斗</u>, Mengsay Loem, 岡崎 直観.
+                        <strong>大規模言語モデルにおける評価バイアスの尤度に基づく緩和.</strong> 言語処理学会第30回年次大会 (NLP2024), A11-4, pp. 3021–3026,
+                        2024年3月. <b><span style="color: red;">若手奨励賞</span></b> 🎉
+                      </li>
+                      <li><u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>制約が異なる指示で生成された文章に対するLLM生成検出の頑健性.</strong>
+                        言語処理学会第30回年次大会 (NLP2024), A4-4, pp. 943–948, 2024年3月.</li>
+                      <li><u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>敵対的事例を用いたIn-context
+                          learningによるLLM生成エッセイの検出.</strong> 第18回NLP若手の会シンポジウム, S3-P13, 2023年8月. <b><span
+                            style="color: red;">スポンサー賞（PKSHA Technology, HAKUHODO Technologies）</span></b>🎉</li>
+                    </ul>
+                  </details>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td colspan="2">
+                <heading id="education">Experiences</heading>
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/science_tokyo.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b>Institute of Science Tokyo</b>, Tokyo, Japan<br>
+                <i><b>Doctoral Researcher</b></i> (2023.04 - 2026.03)<br>
+                Advisor: Prof. <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/upenn.png" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b>University of Pennsylvania</b>, Philadelphia, PA, USA<br>
+                <i><b>Visiting Researcher</b></i> (2024.10 - 2025.10)<br>
+                Advisor: Prof. <a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/mbzuai.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b>Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</b>, Abu Dhabi, UAE<br>
+                <i><b>Research Collaborate</b></i> (2024.04 - 2025.04)<br>
+                Advisor: Prof. <a href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/exawizards.png" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b><a href="https://exawizards.com/en/">Exawizards, Inc.</a></b>, Tokyo, Japan<br>
+                <i><b>Machine Learning Engineer Intern</b></i> (2022.02 - 2022.03)
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/cyberagent.png" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b><a href="https://www.cyberagent.co.jp/en/">CyberAgent, Inc.</a></b>, Tokyo, Japan<br>
+                <i><b>Research Intern</b></i> (2021.09 - 2022.01)<br>
+                <i><b>Software Engineer Intern</b></i> (2021.07 - 2021.08)
+              </td>
+            </tr>
+          </table>
+
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tr>
+              <td colspan="2">
+                <heading id="education">Education</heading>
+              </td>
+            </tr>
+            <tr>
+              <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/science_tokyo.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b>Institute of Science Tokyo</b> (formerly Tokyo Institute of Technology), Tokyo, Japan<br>
+                Ph.D. in Computer Science (2023.04 - 2026.03)
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
+                <img src="images/keio.png" style="height: 50px; max-width: 100%; object-fit: contain;">
+              </td>
+              <td style="padding: 6px 20px;">
+                <b>Keio University</b>, Tokyo, Japan<br>
+                M.S. in Information and Computer Science (2021.04 - 2023.03)<br>
+                B.S. in Information and Computer Science (2017.04 - 2021.03)
+              </td>
+            </tr>
+          </table>
+
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Grants</heading>
                   <ul>
-                    <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>On the Robustness
-                        of LLM-Generated Text Detection Against Instruction Diversity.</strong> Journal of Natural
-                      Language Processing, 33(1):158–185, March 2026. [<a
-                        href="https://www.jstage.jst.go.jp/article/jnlp/33/1/33_158/_pdf/-char/en">paper</a>]</li>
-                    <li>Masanari Ohi, Masahiro Kaneko, <u>Ryuto Koike</u>, Mengsay Loem, Naoaki Okazaki.
-                      <strong>Likelihood-based Mitigation of Evaluation Bias in Large Language Models.</strong>
-                      Journal of Natural Language Processing.
-                      32(2):480–496. July 2025. [<a
-                        href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/en/">paper</a>]
-                      <b><span style="color: red;">Best Paper Award</span></b> 🎉
+                    <li><a href="https://www.spring-boost.i.isct.ac.jp/en/">Off-Campus Study Plus in Tokyo Tech SPRING
+                        Scholarship</a><br>
+                      Tokyo Institute of Technology, 2024.<br>
+                      <i>Research Funds: 900,000 JPY / APPROX 6,000 USD</i>
                     </li>
-                    <li><u>Ryuto Koike</u>, Masafumi Hagiwara. <strong>A support system for generating attractive
-                        YouTube titles using text style transfer.</strong> Transactions of Japan Society of Kansei
-                      Engineering. 21(1):49–55. 2022. [<a
-                        href="https://www.jstage.jst.go.jp/article/jjske/21/1/21_TJSKE-D-21-00036/_article/-char/en">paper</a>]
+
+                    <li><a href="https://tobitate-mext.jasso.go.jp/about/english.html">Tobitate! (Leap for Tomorrow)
+                        Study Abroad Scholarship</a> (Acceptance Rate: 16.7%)<br>
+                      The Ministry of Education, Culture, Sports, Science and Technology (MEXT), 2024.<br>
+                      <i>Scholarship: 1,920,000 JPY / APPROX 12,100 USD per year, Preparation Funds: 350,000 JPY /
+                        APPROX 2,200 USD</i>
+                    </li>
+
+                    <li><a href="https://www.spring-boost.i.isct.ac.jp/en/">Tokyo Tech SPRING Scholarship</a><br>
+                      Tokyo Institute of Technology, Apr. 2024 - Mar.2026.<br>
+                      <i>Scholarship: 2,160,000 JPY / APPROX 14,400 USD per year, Research Funds: 300,000 JPY / APPROX
+                        2,000 USD per year</i>,<br>
+                      <strong>Full Tuition Exemption</strong>.
+                    </li>
+
+                    <li><a href="https://www.fellowship.gakumu.titech.ac.jp/en/">Tokyo Tech Advanced Human Resource
+                        Development Fellowship for Doctoral Students</a><br>
+                      Tokyo Institute of Technology, Apr. 2023 - Mar. 2024.<br>
+                      <i>Scholarship: 1,800,000 JPY / APPROX 12,000 USD per year, Research Funds: 300,000 JPY / APPROX
+                        2,000 USD per year</i>,<br>
+                      <strong>Full Tuition Exemption</strong>.
                     </li>
                   </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-                  <h6><strong>Preprints</strong></h6>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Talks</heading>
                   <ul>
-                    <li>Koshiro Saito†, <u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki
-                      Okazaki. <strong>LLM Output Detectability and Task Performance Can be Jointly
-                        Optimized.</strong> arXiv. 2026.
-                      [<a href="https://arxiv.org/abs/2605.01350">paper</a>]
-                    </li>
-                    <li>Tatsuya Ichinose†, Youmi Ma, Masanari Oi, <u>Ryuto Koike</u>, Naoaki
-                      Okazaki. <strong>Synthesizing Instruction-Tuning Datasets with Contrastive Decoding.</strong>
-                      arXiv. 2026. [<a href="https://arxiv.org/abs/2604.13538">paper</a>]
-                    </li>
-                    <li><u>Ryuto Koike</u>*, Liam Dugan*, Masahiro Kaneko, Chris Callison-Burch, Naoaki
-                      Okazaki. <strong>Machine Text Detectors are Membership Inference Attacks.</strong> arXiv. 2025.
-                      [<a href="https://arxiv.org/abs/2510.19492">paper</a>]
+                    <li>Invited talk. Machine Text Detectors are Membership Inference Attacks. Google Privacy ML
+                      Seminar. Virtual.
+                      February 4, 2026. [<a
+                        href="https://docs.google.com/presentation/d/1otEGKUJyw84ANNCQY7dD0OOX7wTLqC558HEE0Hv-x2Q/edit?slide=id.g3c33a3f8a25_0_12#slide=id.g3c33a3f8a25_0_12">slides</a>]
                     </li>
                   </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-                  <h6><strong>International Conference</strong></h6>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Honors</heading>
                   <ul>
-                    <li>Masanari Oi, Koki Maeda, <u>Ryuto Koike</u>, Daisuke Oba, Nakamasa Inoue, Naoaki
-                      Okazaki. <strong>From Correspondence to Actions: Human-Like Multi-Image Spatial Reasoning in
-                        Multi-modal Large Language Models.</strong> <b><span style="color: red;">ICML</span></b>.
-                      Seoul, South Korea. July 2026.
-                      [<a href="https://arxiv.org/abs/2602.08735">paper</a>]
+                    <li><b>PhD Graduate Representative (修了代表者)</b><br>
+                      Department of Computer Science, School of Computing, Institute of Science Tokyo.
                     </li>
-                    <li><u>Ryuto Koike</u>, Masahiro Kaneko, Ayana Niwa, Preslav Nakov, Naoaki Okazaki.
-                      <strong>ExaGPT: Example-Based Machine-Generated Text Detection for Human
-                        Interpretability.</strong> <b><span style="color: red;">Findings of ACL</span></b>. San Diego,
-                      California, USA. July 2026.
-                      [<a href="https://arxiv.org/abs/2502.11336">paper</a>]
+                    <li><b><a
+                          href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%A9%9F%E6%A2%B0%E7%94%9F%E6%88%90%E6%96%87%E6%A4%9C%E5%87%BA%E3%81%A8%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97%E6%8E%A8%E8%AB%96%E3%81%AF%E7%9B%B8%E4%BA%92%E3%81%AB%E8%BB%A2%E7%A7%BB%E5%8F%AF%E8%83%BD">Outstanding
+                          Young Researcher’s Paper Award (若手奨励賞)</a></b><br>
+                      The 32th Annual Meeting of The Association for Natural Language Processing (NLP 2026).
                     </li>
-                    <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>OUTFOX:
-                        LLM-generated Essay Detection through In-context Learning with Adversarially Generated
-                        Examples.</strong> <b><span style="color: red;">AAAI</span></b>. pp. 21258–21266. Vancouver,
-                      Canada. February 2024. [<a href="https://arxiv.org/abs/2510.19492">paper</a>]</li>
-                    <li><u>Ryuto Koike</u>, Masahiro Kaneko, Naoaki Okazaki. <strong>How You Prompt
-                        Matters! Even Task-Oriented Constraints in Instructions Affect LLM-Generated Text
-                        Detection.</strong> <b><span style="color: red;">Findings of EMNLP</span></b>. pp.
-                      14384–14395.
-                      Miami, Florida, USA. November
-                      2024. [<a href="https://arxiv.org/abs/2311.08369">paper</a>]</li>
-                    <li>Masanari Ohi†, Masahiro Kaneko, <u>Ryuto Koike</u>, Mengsay Loem, Naoaki Okazaki.
-                      <strong>Likelihood-based Mitigation of Evaluation Bias in Large Language Models.</strong>
-                      <b><span style="color: red;">Findings of ACL</span></b>. pp. 3237–3245. Bangkok, Thailand.
-                      August
-                      2024. [<a href="https://arxiv.org/abs/2402.15987">paper</a>]
+                    <li><b>Sponsorship Awards</b> from <a
+                        href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%8E%B2%E8%BC%89%E3%81%97%E3%81%BE%E3%81%99%EF%BC%89-,%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E,-%EF%BC%88%E5%8F%97%E8%B3%9E%E8%AB%96%E6%96%87%E3%81%A8">CyberAgent,
+                        Inc.</a> and <a
+                        href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%8E%B2%E8%BC%89%E3%81%97%E3%81%BE%E3%81%99%EF%BC%89-,ELYZA%E8%B3%9E,-%EF%BC%88%E5%8F%97%E8%B3%9E%E8%AB%96%E6%96%87%E3%81%A8">ELYZA,
+                        Inc.</a><br>
+                      The 32th Annual Meeting of The Association for Natural Language Processing (NLP 2026).
                     </li>
-                    <li>Yuxia Wang, Rui Xing, Jonibek Mansurov, Giovanni Puccetti, Zhuohan Xie, Minh Ngoc Ta, Jiahui
-                      Geng, Jinyan Su, Mervat Abassy, Saad El Dine Ahmed, Kareem Elozeiri, Nurkhan Laiyk, Maiya
-                      Goloburda, Tarek Mahmoud, Raj Vardhan Tomar, Alexander Aziz, <u>Ryuto Koike</u>,
-                      Masahiro Kaneko, Artem Shelmanov, Ekaterina Artemova, Vladislav Mikhailov, Akim Tsvigun, Alham
-                      Fikri Aji, Nizar Habash, Iryna Gurevych, Preslav Nakov. <strong>Is Human-like Text Liked by
-                        Human? Multilingual Human Detection and Preference Against AI.</strong> <b><span
-                          style="color: red;">ACL</span></b>. San Diego,
-                      California, USA. July 2026. [<a href="https://arxiv.org/abs/2502.11614">paper</a>]</li>
-                    <li>Yuxia Wang, Artem Shelmanov, Jonibek Mansurov, Akim Tsvigun, Vladislav Mikhailov, Rui Xing,
-                      Zhuohan Xie, Jiahui Geng, Giovanni Puccetti, Ekaterina Artemova, Jinyan Su, Minh Ngoc Ta, Mervat
-                      Abassy, Kareem Elozeiri, Saad El Dine Ahmed, Maiya Goloburda, Tarek Mahmoud, Raj Vardhan Tomar,
-                      Alexander Aziz, Nurkhan Laiyk, Osama Mohammed Afzal, <u>Ryuto Koike</u>, Masahiro
-                      Kaneko, Alham Fikri Aji, Nizar Habash, Iryna Gurevych, Preslav Nakov. <strong> GenAI Content
-                        Detection Task 1: English and Multilingual Machine-generated Text Detection: AI vs.
-                        Human.</strong>
-                      Proceedings
-                      of the 1st Workshop on GenAI Content Detection (<b><span
-                          style="color: red;">GenAIDetect</span></b>).
-                      pp. 244–261. COLING. Abu Dhabi,
-                      UAE. [<a href="https://arxiv.org/abs/2501.11012">paper</a>]</li>
+                    <li><b><a href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/ja/">Best Paper
+                          Award (最優秀論文賞)</a></b><br>
+                      Journal of Natural Language Processing. 2025.
+                    </li>
+                    <li><b>Sponsorship Award</b> from <a
+                        href="https://yans.anlp.jp/#%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E:~:text=%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E-,%E5%AF%BE%E7%85%A7%E7%9A%84%E3%83%87%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%E4%B8%80%E7%80%AC%20%E9%81%94%E7%9F%A2%20(Science">CyberAgent,
+                        Inc</a>.<br>
+                      The 20th Symposium of Young Researcher Association for NLP Studies (YANS 2025).
+                    </li>
+                    <li><b>Sponsorship Award</b> from <a
+                        href="https://yans.anlp.jp/entry/award#:~:text=%E3%83%9E%E3%83%AB%E3%83%81%E3%82%BF%E3%83%BC%E3%83%B3Jailbreak%E6%94%BB%E6%92%83%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E9%98%B2%E5%BE%A1%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E6%8F%90%E6%A1%88">Polaris.AI</a>
+                      <br>
+                      The 20th Symposium of Young Researcher Association for NLP Studies (YANS 2025).
+                    </li>
+                    <li><b><a
+                          href="https://yans.anlp.jp/entry/award#:~:text=%E4%B8%AD%E9%87%8E%20%E4%BF%AE%E5%B9%B3%20(AbemaTV)-,%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%20%E9%BD%8B%E8%97%A4%20%E5%B9%B8%E5%8F%B2%E9%83%8E">Encouragement
+                          Award (奨励賞)</a></b> and <b>Sponsorship Award</b> from <a
+                        href="https://yans.anlp.jp/entry/award#:~:text=%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E-,%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%20%E9%BD%8B%E8%97%A4%20%E5%B9%B8%E5%8F%B2%E9%83%8E">CyberAgent,
+                        Inc</a>.<br>
+                      The 19th Symposium of Young Researcher Association for NLP Studies (YANS 2024).
+                    </li>
+                    <li><b>Sponsorship Awards</b> from <a
+                        href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">PKSHA
+                        Technology</a> and <a
+                        href="https://yans.anlp.jp/entry/award#:~:text=%E5%A4%A7/%E7%90%86%E7%A0%94)-,%E5%8D%9A%E5%A0%B1%E5%A0%82%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%BA%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">HAKUHODO
+                        Technologies</a><br>
+                      The 18th Symposium of Young Researcher Association for NLP Studies (YANS 2023).
+                    </li>
+                    <li><b><a href="https://www.kaggle.com/c/lish-moa/overview">Silver Medal</a></b><br>
+                      Kaggle, Mechanisms of Action (MoA) Prediction, 2020. </li>
                   </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-                  <h6><strong>Domestic Conference and Symposium (in Japanese)</strong></h6>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Academic Service</heading>
                   <ul>
-                    <li><u>小池 隆斗</u>*, Liam Dugan*, 金子 正弘, Chris Callison-Burch, 岡崎 直観.
-                      <strong>機械生成文検出とメンバーシップ推論は相互に転移可能.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月. <b><span
-                          style="color: red;">若手奨励賞</span></b> 🎉
-                    </li>
-                    <li>一瀬 達矢, Youmi Ma, 大井 聖也, <u>小池 隆斗</u>, 岡崎 直観.
-                      <strong>対照的デコーディングを用いた指示学習データの合成.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月.
-                    </li>
-                    <li>島田 比奈理, 大葉 大輔, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
-                      <strong>現在と将来の応答の有害性を低減させることによるマルチターン脱獄攻撃の防御手法.</strong> 言語処理学会第32回年次大会 (NLP2026), 2026年3月.
-                    </li>
-                    <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>機械文としての検出されやすさと文章の品質は両立する.</strong>
-                      言語処理学会第32回年次大会 (NLP2026), 2026年3月. <b><span style="color: red;">若手奨励賞 🎉
-                          スポンサー賞（CyberAgent, ELYZA）</span></b>🎉</li>
-                    <li>島田 比奈理, 大葉 大輔, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
-                      <strong>マルチターンJailbreak攻撃に対する防御アルゴリズムの提案.</strong> 第20回YANSシンポジウム (YANS2025), S3-P49, 2025年9月.
-                      <b><span style="color: red;">スポンサー賞（Polaris.AI）</span></b>🎉
-                    </li>
-                    <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
-                      <strong>PUPPET：タスク性能を維持しながらLLMとして検出されやすくする学習フレームワーク.</strong> 第20回YANSシンポジウム (YANS2025), S2-P13,
-                      2025年9月.
-                    </li>
-                    <li>一瀬 達矢, Youmi Ma, 大井 聖也, <u>小池 隆斗</u>, 岡崎 直観.
-                      <strong>対照的デコーディングを用いた指示学習データの合成.</strong> 第20回YANSシンポジウム (YANS2025), S1-P34, 2025年9月. <b><span
-                          style="color: red;">スポンサー賞（CyberAgent）</span></b>🎉
-                    </li>
-                    <li><u>小池 隆斗</u>, 金子 正弘, 丹羽 彩奈, Preslav Nakov, 岡崎 直観. <strong>ExaGPT:
-                        解釈性向上に向けた事例ベース機械文検出.</strong> 人工知能学会第39回年次大会 (JSAI2025), 2025年5月.</li>
-                    <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
-                      <strong>PUPPET：タスク性能を維持しながらLLMとして検出されやすくする学習フレームワーク.</strong> 言語処理学会第31回年次大会 (NLP2025), P7-5,
-                      pp. 2791–2796, 2025年3月.
-                    </li>
-                    <li>齋藤 幸史郎, <u>小池 隆斗</u>, 金子 正弘, 岡崎 直観.
-                      <strong>強化学習を用いた、言語理解能力を維持したLLM検出器の性能向上.</strong> 第19回YANSシンポジウム (YANS2024), S1-P23, 2024年9月.
-                      <b><span style="color: red;">奨励賞 🎉 スポンサー賞（CyberAgent）</span></b>🎉
-                    </li>
-                    <li>大井 聖也, 金子 正弘, <u>小池 隆斗</u>, Mengsay Loem, 岡崎 直観.
-                      <strong>大規模言語モデルにおける評価バイアスの尤度に基づく緩和.</strong> 言語処理学会第30回年次大会 (NLP2024), A11-4, pp. 3021–3026,
-                      2024年3月. <b><span style="color: red;">若手奨励賞</span></b> 🎉
-                    </li>
-                    <li><u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>制約が異なる指示で生成された文章に対するLLM生成検出の頑健性.</strong>
-                      言語処理学会第30回年次大会 (NLP2024), A4-4, pp. 943–948, 2024年3月.</li>
-                    <li><u>小池 隆斗</u>, 金子 正弘, 岡崎 直観. <strong>敵対的事例を用いたIn-context
-                        learningによるLLM生成エッセイの検出.</strong> 第18回NLP若手の会シンポジウム, S3-P13, 2023年8月. <b><span
-                          style="color: red;">スポンサー賞（PKSHA Technology, HAKUHODO Technologies）</span></b>🎉</li>
+                    <li>Reviewer/Program Committee: ACL (2023-2026), EMNLP (2024-2025), ICLR (2026), ICML (2026),
+                      NeurIPS (2025),
+                      AAAI (2026), COLING (2025), AACL (2025) </li>
+                    <li>Journal Reviewer: <a href="https://www.anlp.jp/en/guide/index.html">Journal of Natural
+                        Language Processing</a></li>
+                    <li>Workshop/Shared Task Organizer: <a href="https://genai-content-detection.gitlab.io/">GenAI
+                        Content Detection (GenAIDetect)</a>, COLING 2025</li>
                   </ul>
-                </details>
-              </td>
-            </tr>
-          </tbody>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    ©︎ Ryuto Koike / Design: <a href="https://jonbarron.info/">Jon Barron</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
         </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td colspan="2">
-              <heading id="education">Experiences</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/science_tokyo.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b>Institute of Science Tokyo</b>, Tokyo, Japan<br>
-              <i><b>Doctoral Researcher</b></i> (2023.04 - 2026.03)<br>
-              Advisor: Prof. <a href="https://www.chokkan.org/index.en.html">Naoaki Okazaki</a>
-            </td>
-          </tr>
-          <tr>
-            <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/upenn.png" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b>University of Pennsylvania</b>, Philadelphia, PA, USA<br>
-              <i><b>Visiting Researcher</b></i> (2024.10 - 2025.10)<br>
-              Advisor: Prof. <a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/mbzuai.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b>Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</b>, Abu Dhabi, UAE<br>
-              <i><b>Research Collaborate</b></i> (2024.04 - 2025.04)<br>
-              Advisor: Prof. <a href="https://mbzuai.ac.ae/study/faculty/preslav-nakov/">Preslav Nakov</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/exawizards.png" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b><a href="https://exawizards.com/en/">Exawizards, Inc.</a></b>, Tokyo, Japan<br>
-              <i><b>Machine Learning Engineer Intern</b></i> (2022.02 - 2022.03)
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/cyberagent.png" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b><a href="https://www.cyberagent.co.jp/en/">CyberAgent, Inc.</a></b>, Tokyo, Japan<br>
-              <i><b>Research Intern</b></i> (2021.09 - 2022.01)<br>
-              <i><b>Software Engineer Intern</b></i> (2021.07 - 2021.08)
-            </td>
-          </tr>
-        </table>
-
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td colspan="2">
-              <heading id="education">Education</heading>
-            </td>
-          </tr>
-          <tr>
-            <td width="15%" style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/science_tokyo.jpg" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b>Institute of Science Tokyo</b> (formerly Tokyo Institute of Technology), Tokyo, Japan<br>
-              Ph.D. in Computer Science (2023.04 - 2026.03)
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; padding: 6px 20px;">
-              <img src="images/keio.png" style="height: 50px; max-width: 100%; object-fit: contain;">
-            </td>
-            <td style="padding: 6px 20px;">
-              <b>Keio University</b>, Tokyo, Japan<br>
-              M.S. in Information and Computer Science (2021.04 - 2023.03)<br>
-              B.S. in Information and Computer Science (2017.04 - 2021.03)
-            </td>
-          </tr>
-        </table>
-
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Grants</heading>
-                <ul>
-                  <li><a href="https://www.spring-boost.i.isct.ac.jp/en/">Off-Campus Study Plus in Tokyo Tech SPRING
-                      Scholarship</a><br>
-                    Tokyo Institute of Technology, 2024.<br>
-                    <i>Research Funds: 900,000 JPY / APPROX 6,000 USD</i>
-                  </li>
-
-                  <li><a href="https://tobitate-mext.jasso.go.jp/about/english.html">Tobitate! (Leap for Tomorrow)
-                      Study Abroad Scholarship</a> (Acceptance Rate: 16.7%)<br>
-                    The Ministry of Education, Culture, Sports, Science and Technology (MEXT), 2024.<br>
-                    <i>Scholarship: 1,920,000 JPY / APPROX 12,100 USD per year, Preparation Funds: 350,000 JPY /
-                      APPROX 2,200 USD</i>
-                  </li>
-
-                  <li><a href="https://www.spring-boost.i.isct.ac.jp/en/">Tokyo Tech SPRING Scholarship</a><br>
-                    Tokyo Institute of Technology, Apr. 2024 - Mar.2026.<br>
-                    <i>Scholarship: 2,160,000 JPY / APPROX 14,400 USD per year, Research Funds: 300,000 JPY / APPROX
-                      2,000 USD per year</i>,<br>
-                    <strong>Full Tuition Exemption</strong>.
-                  </li>
-
-                  <li><a href="https://www.fellowship.gakumu.titech.ac.jp/en/">Tokyo Tech Advanced Human Resource
-                      Development Fellowship for Doctoral Students</a><br>
-                    Tokyo Institute of Technology, Apr. 2023 - Mar. 2024.<br>
-                    <i>Scholarship: 1,800,000 JPY / APPROX 12,000 USD per year, Research Funds: 300,000 JPY / APPROX
-                      2,000 USD per year</i>,<br>
-                    <strong>Full Tuition Exemption</strong>.
-                  </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Talks</heading>
-                <ul>
-                  <li>Invited talk. Machine Text Detectors are Membership Inference Attacks. Google Privacy ML
-                    Seminar. Virtual.
-                    February 4, 2026. [<a
-                      href="https://docs.google.com/presentation/d/1otEGKUJyw84ANNCQY7dD0OOX7wTLqC558HEE0Hv-x2Q/edit?slide=id.g3c33a3f8a25_0_12#slide=id.g3c33a3f8a25_0_12">slides</a>]
-                  </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Honors</heading>
-                <ul>
-                  <li><b>PhD Graduate Representative (修了代表者)</b><br>
-                    Department of Computer Science, School of Computing, Institute of Science Tokyo.
-                  </li>
-                  <li><b><a
-                        href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%A9%9F%E6%A2%B0%E7%94%9F%E6%88%90%E6%96%87%E6%A4%9C%E5%87%BA%E3%81%A8%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97%E6%8E%A8%E8%AB%96%E3%81%AF%E7%9B%B8%E4%BA%92%E3%81%AB%E8%BB%A2%E7%A7%BB%E5%8F%AF%E8%83%BD">Outstanding
-                        Young Researcher’s Paper Award (若手奨励賞)</a></b><br>
-                    The 32th Annual Meeting of The Association for Natural Language Processing (NLP 2026).
-                  </li>
-                  <li><b>Sponsorship Awards</b> from <a
-                      href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%8E%B2%E8%BC%89%E3%81%97%E3%81%BE%E3%81%99%EF%BC%89-,%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E,-%EF%BC%88%E5%8F%97%E8%B3%9E%E8%AB%96%E6%96%87%E3%81%A8">CyberAgent,
-                      Inc.</a> and <a
-                      href="https://www.anlp.jp/nlp2026/award.html#:~:text=%E6%8E%B2%E8%BC%89%E3%81%97%E3%81%BE%E3%81%99%EF%BC%89-,ELYZA%E8%B3%9E,-%EF%BC%88%E5%8F%97%E8%B3%9E%E8%AB%96%E6%96%87%E3%81%A8">ELYZA,
-                      Inc.</a><br>
-                    The 32th Annual Meeting of The Association for Natural Language Processing (NLP 2026).
-                  </li>
-                  <li><b><a href="https://www.jstage.jst.go.jp/article/jnlp/32/2/32_480/_article/-char/ja/">Best Paper
-                        Award (最優秀論文賞)</a></b><br>
-                    Journal of Natural Language Processing. 2025.
-                  </li>
-                  <li><b>Sponsorship Award</b> from <a
-                      href="https://yans.anlp.jp/#%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E:~:text=%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E-,%E5%AF%BE%E7%85%A7%E7%9A%84%E3%83%87%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%E4%B8%80%E7%80%AC%20%E9%81%94%E7%9F%A2%20(Science">CyberAgent,
-                      Inc</a>.<br>
-                    The 20th Symposium of Young Researcher Association for NLP Studies (YANS 2025).
-                  </li>
-                  <li><b>Sponsorship Award</b> from <a
-                      href="https://yans.anlp.jp/entry/award#:~:text=%E3%83%9E%E3%83%AB%E3%83%81%E3%82%BF%E3%83%BC%E3%83%B3Jailbreak%E6%94%BB%E6%92%83%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E9%98%B2%E5%BE%A1%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E6%8F%90%E6%A1%88">Polaris.AI</a>
-                    <br>
-                    The 20th Symposium of Young Researcher Association for NLP Studies (YANS 2025).
-                  </li>
-                  <li><b><a
-                        href="https://yans.anlp.jp/entry/award#:~:text=%E4%B8%AD%E9%87%8E%20%E4%BF%AE%E5%B9%B3%20(AbemaTV)-,%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%20%E9%BD%8B%E8%97%A4%20%E5%B9%B8%E5%8F%B2%E9%83%8E">Encouragement
-                        Award (奨励賞)</a></b> and <b>Sponsorship Award</b> from <a
-                      href="https://yans.anlp.jp/entry/award#:~:text=%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E8%B3%9E-,%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%8C%87%E7%A4%BA%E5%AD%A6%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%90%88%E6%88%90,-%E2%97%AF%20%E9%BD%8B%E8%97%A4%20%E5%B9%B8%E5%8F%B2%E9%83%8E">CyberAgent,
-                      Inc</a>.<br>
-                    The 19th Symposium of Young Researcher Association for NLP Studies (YANS 2024).
-                  </li>
-                  <li><b>Sponsorship Awards</b> from <a
-                      href="https://yans.anlp.jp/entry/award#:~:text=%E5%B7%A5%E5%A4%A7/%E7%90%86%E7%A0%94%29-,PKSHA%20Technology%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">PKSHA
-                      Technology</a> and <a
-                      href="https://yans.anlp.jp/entry/award#:~:text=%E5%A4%A7/%E7%90%86%E7%A0%94)-,%E5%8D%9A%E5%A0%B1%E5%A0%82%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%BA%E8%B3%9E,-%E6%95%B5%E5%AF%BE%E7%9A%84%E4%BA%8B%E4%BE%8B">HAKUHODO
-                      Technologies</a><br>
-                    The 18th Symposium of Young Researcher Association for NLP Studies (YANS 2023).
-                  </li>
-                  <li><b><a href="https://www.kaggle.com/c/lish-moa/overview">Silver Medal</a></b><br>
-                    Kaggle, Mechanisms of Action (MoA) Prediction, 2020. </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Academic Service</heading>
-                <ul>
-                  <li>Reviewer/Program Committee: ACL (2023-2026), EMNLP (2024-2025), ICLR (2026), ICML (2026),
-                    NeurIPS (2025),
-                    AAAI (2026), COLING (2025), AACL (2025) </li>
-                  <li>Journal Reviewer: <a href="https://www.anlp.jp/en/guide/index.html">Journal of Natural
-                      Language Processing</a></li>
-                  <li>Workshop/Shared Task Organizer: <a href="https://genai-content-detection.gitlab.io/">GenAI
-                      Content Detection (GenAIDetect)</a>, COLING 2025</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  ©︎ Ryuto Koike / Design: <a href="https://jonbarron.info/">Jon Barron</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-  </table>
-  </td>
-  </tr>
+      </td>
+    </tr>
   </table>
   <!-- <script type="text/javascript" id="clustrmaps"
     src="//clustrmaps.com/map_v2.js?d=Ao4TjNJFYoOSwSjW7CQS1NUt6DpakU_Qbt4YzaxlD-E&cl=ffffff&w=a"></script> -->
