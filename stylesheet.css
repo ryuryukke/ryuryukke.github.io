@@ -616,6 +616,24 @@ tr.pub-row:hover td.pub-text::before {
   background-color: var(--link);
 }
 
+/* Home > Selected Works: more breathing room between title / authors / buttons / labels */
+td.pub-text .pub-title {
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+td.pub-text .pub-authors {
+  line-height: 1.6;
+}
+
+td.pub-text .tags {
+  margin-top: 12px;
+}
+
+td.pub-text .hl-row {
+  margin-top: 10px;
+}
+
 .pub-title {
   font-weight: 600;
   line-height: 1.4;
