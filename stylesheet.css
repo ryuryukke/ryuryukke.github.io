@@ -817,6 +817,17 @@ ul.timeline.plain > li {
   padding-left: 6.8em;
 }
 
+/* timelines with logos (Home > Experiences, CV > Education): roomier rows */
+ul.timeline:not(.plain) > li {
+  min-height: 52px;
+  margin-bottom: 30px;
+}
+
+ul.timeline:not(.plain) .tl-meta {
+  margin-top: 2px;
+  line-height: 1.6;
+}
+
 /* period or label on the left */
 .tl-year {
   position: absolute;
