@@ -13,7 +13,8 @@
   function setTheme(theme) {
     root.setAttribute('data-theme', theme);
     var btn = document.getElementById('theme-toggle');
-    if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
+    // "︎" = show as a plain text symbol (otherwise phones turn ☀ into a color emoji)
+    if (btn) btn.textContent = theme === 'dark' ? '☀︎' : '☾︎';
   }
   function setLang(lang) {
     root.setAttribute('data-lang', lang);
