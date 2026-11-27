@@ -461,13 +461,18 @@ html:not([data-lang="ja"]) .ja {
 }
 
 /* ---- Home header: name / role / icon links ---- */
+/* name: formal serif (Libre Baskerville); Japanese name falls back to Noto Serif JP (Mincho) */
 .profile-name {
   margin: 0 0 22px;
-  font-family: 'Google Sans', sans-serif;
+  font-family: 'Libre Baskerville', 'Noto Serif JP', Georgia, serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
+html[data-lang="ja"] .profile-name {
+  font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
   font-weight: 500;
-  font-size: 52px;
-  line-height: 1.1;
-  letter-spacing: -0.01em;
 }
 
 .profile-role {
@@ -1001,7 +1006,7 @@ html[data-theme="dark"] span[style*="color: red"] {
 
   /* --- header --- */
   .profile-name {
-    font-size: 38px;
+    font-size: 34px;
     margin-bottom: 14px;
   }
 
